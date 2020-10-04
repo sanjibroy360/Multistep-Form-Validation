@@ -119,13 +119,13 @@ export default class index extends Component {
             }
           />
           <div className="btn_wrapper">
-          <Button animated onClick={prevStep}>
+          <Button animated onClick={prevStep} size='large' secondary>
             <Button.Content visible>Back</Button.Content>
             <Button.Content hidden>
               <Icon name="arrow left" />
             </Button.Content>
           </Button>
-          <Button animated onClick={this.handleSubmit}>
+          <Button animated onClick={this.handleSubmit} size='large' primary>
             <Button.Content visible>Next</Button.Content>
             <Button.Content hidden>
               <Icon name="arrow right" />

@@ -242,8 +242,8 @@ export default class ProfileInfo extends Component {
           />
 
           <div className="btn_wrapper">
-            <Button animated onClick={this.handleSubmit}>
-              <Button.Content visible>Next</Button.Content>
+            <Button animated onClick={this.handleSubmit} size='large' primary>
+              <Button.Content visible >Next</Button.Content>
               <Button.Content hidden>
                 <Icon name="arrow right" />
               </Button.Content>

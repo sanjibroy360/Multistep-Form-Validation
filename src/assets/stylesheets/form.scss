@@ -2,11 +2,12 @@
   margin: 3rem auto;
 
   .avatar {
-    width: 150px;
-    height: 170px;
+    width: 9.375rem;
+    height: 10.625rem;
     overflow: hidden;
     border: 1px solid #777;
     position: relative;
+    border-radius: 0.2rem;
     z-index: 1;
     margin: 1.5rem 0;
     label {
