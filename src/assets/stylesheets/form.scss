@@ -1,0 +1,43 @@
+.form {
+  margin: 3rem auto;
+
+  .avatar {
+    width: 150px;
+    height: 170px;
+    overflow: hidden;
+    border: 1px solid #777;
+    position: relative;
+    z-index: 1;
+    margin: 1.5rem 0;
+    label {
+      width: 100%;
+
+      .upload_icon {
+        cursor: pointer;
+        position: absolute;
+        background-color: rgba(54, 54, 54, 0.95);
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        visibility: hidden;
+        color: rgb(228, 222, 222);
+        text-align: center;
+        padding-top: 4rem;
+        i {
+          font-size: 3rem;
+        }
+        p {
+          font-weight: bold;
+        }
+      }
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .avatar:hover > label .upload_icon {
+    visibility: visible;
+  }
+}

@@ -1,0 +1,64 @@
+@import "./css_reset.scss";
+@import "./form.scss";
+@import "./media_query.scss";
+
+html,
+body {
+  font-size: 16px;
+  background-color: rgb(252, 252, 252);
+}
+
+#root {
+  background-color: rgb(252, 252, 252);
+}
+
+.container {
+  max-width: 978px;
+  margin: 0 auto;
+  
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none !important;
+}
+
+img {
+  width: 100%;
+}
+
+.steps_wrapper {
+  // margin-top: ;
+
+}
+
+.form_segment {
+  margin: 2rem auto !important;
+}
+
+.form_wrapper {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.btn_gap {
+  button {
+    margin: 0rem 0.35rem !important;
+  }
+}
+
+.btn_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#upload_avatar {
+  display: none;
+}

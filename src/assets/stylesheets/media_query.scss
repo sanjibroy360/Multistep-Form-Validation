@@ -1,0 +1,17 @@
+@media all and (max-width: 786px) {
+    html, body {
+        font-size: 10px;
+    }
+    .steps_wrapper {
+        width: 90% !important;
+        margin: 1rem auto;
+    }
+
+    .form_segment {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .form_wrapper {
+        width: 95%;
+    }
+}
